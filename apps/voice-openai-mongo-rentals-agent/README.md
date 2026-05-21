@@ -1,4 +1,4 @@
-#  Voice Agent with MongoDB MongoDB Vector Search
+#  Voice Agent with MongoDB Vector Search
 
 <img src="./youtube-thumbnail-updated.svg" width="400" alt="Thumbnail">
 
