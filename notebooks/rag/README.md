@@ -1,4 +1,4 @@
-Jupyter Notebooks demonstrating various Retrieval Augmented Generation (RAG) implementations using LLM providers, frameworks and MongoDB Atlas Vector Search.
+Jupyter Notebooks demonstrating various Retrieval Augmented Generation (RAG) implementations using LLM providers, frameworks and MongoDB MongoDB Vector Search.
 
 | Title | Stack | Notebook |
 |-------|-------|----------|

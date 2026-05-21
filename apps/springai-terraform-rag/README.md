@@ -1,6 +1,6 @@
 # MongoDB Atlas + Terraform Spring Boot RAG Application
 
-This repository demonstrates how to build a **Retrieval-Augmented Generation (RAG)** application using **Spring Boot**, **OpenAI embeddings**, and **MongoDB Atlas Vector Search**. The infrastructure is automated using **Terraform** to provision and manage MongoDB Atlas resources.
+This repository demonstrates how to build a **Retrieval-Augmented Generation (RAG)** application using **Spring Boot**, **OpenAI embeddings**, and **MongoDB MongoDB Vector Search**. The infrastructure is automated using **Terraform** to provision and manage MongoDB Atlas resources.
 
 ## Overview
 
@@ -85,6 +85,6 @@ To run this project, you'll need:
 
 ## Technologies Used
 - **Spring Boot**: Java-based framework for building REST APIs.
-- **MongoDB Atlas**: An integrated suite of data services (including Atlas Vector Search) centered around a cloud database designed to accelerate and simplify how you build with data. Build faster and build smarter with a developer data platform that helps solve your data challenges. Click [here](https://www.mongodb.com/products/platform/atlas-database) to learn more.
+- **MongoDB Atlas**: An integrated suite of data services (including MongoDB Vector Search) centered around a cloud database designed to accelerate and simplify how you build with data. Build faster and build smarter with a developer data platform that helps solve your data challenges. Click [here](https://www.mongodb.com/products/platform/atlas-database) to learn more.
 - **OpenAI**: Generates embeddings for semantic searches.
 - **Terraform**: Automates infrastructure management for MongoDB Atlas.

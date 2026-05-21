@@ -43,7 +43,7 @@ This guide explores how to leverage MongoDB's capabilities to create and manipul
         } ]
     }
     ```
-    After this create an Atlas Search Index on the <code>knowledge_graph</code> collection. [Please refer this document](https://www.mongodb.com/docs/compass/current/indexes/create-search-index/). Please name the Atlas Search Index as <code>default</code>
+    After this create an MongoDB Search Index on the <code>knowledge_graph</code> collection. [Please refer this document](https://www.mongodb.com/docs/compass/current/indexes/create-search-index/). Please name the MongoDB Search Index as <code>default</code>
 
 
 

@@ -5,7 +5,7 @@
  *
  * This script loads product data from a JSON file, computes embeddings for each document
  * using the Vercel AI SDK, seeds (upserts) each document into the "products" collection in the
- * "ai_shop" database, and then creates both an Atlas Search index and a vector search index.
+ * "ai_shop" database, and then creates both an MongoDB Search index and a vector search index.
  *
  * It uses a dedicated MongoDB client instance created with custom appName settings.
  *
@@ -90,7 +90,7 @@ async function createSearchIndex(client) {
         }
       }]
     });
-    console.log("Successfully created Atlas Search index on 'products' collection");
+    console.log("Successfully created MongoDB Search index on 'products' collection");
   } catch (e) {
     console.error("Failed to create search index:", e);
   }

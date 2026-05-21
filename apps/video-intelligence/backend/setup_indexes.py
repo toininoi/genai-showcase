@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-MongoDB Atlas Search Index Setup Script
+MongoDB MongoDB Search Index Setup Script
 Creates the required vector search and text search indexes for the Video Intelligence app.
 """
 
@@ -18,7 +18,7 @@ def setup_indexes():
     # Get embedding dimensions from environment variable
     EMBEDDING_DIM_SIZE = int(os.getenv("EMBEDDING_DIM_SIZE", "1024"))
     print(f"Using embedding dimensions: {EMBEDDING_DIM_SIZE}")
-    print("🔧 Setting up MongoDB Atlas Search Indexes")
+    print("🔧 Setting up MongoDB MongoDB Search Indexes")
     print("=" * 50)
 
     # Load environment variables

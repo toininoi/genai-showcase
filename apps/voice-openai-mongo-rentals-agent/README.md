@@ -1,4 +1,4 @@
-#  Voice Agent with MongoDB Atlas Vector Search
+#  Voice Agent with MongoDB MongoDB Vector Search
 
 <img src="./youtube-thumbnail-updated.svg" width="400" alt="Thumbnail">
 
@@ -112,7 +112,7 @@ print("All records ingested successfully!")
 
 bookings = db['bookings']
 
-## Create Atlas Search index
+## Create MongoDB Search index
 
 db.create_collection("bookings")
 search_index_model = SearchIndexModel(

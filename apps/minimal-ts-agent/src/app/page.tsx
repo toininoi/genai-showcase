@@ -64,7 +64,7 @@ export default function ChatPage() {
         <div>
           <h1 className="text-lg font-semibold">MongoDB Brand Expert</h1>
           <p className="text-sm text-muted">
-            RAG Agent powered by ToolLoopAgent + Atlas Vector Search
+            RAG Agent powered by ToolLoopAgent + MongoDB Vector Search
           </p>
         </div>
         <div className="ml-auto flex items-center gap-2 text-xs text-muted">
