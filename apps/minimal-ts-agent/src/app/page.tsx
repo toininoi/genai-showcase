@@ -84,7 +84,7 @@ export default function ChatPage() {
                 Ask me about the MongoDB Brand Book
               </h2>
               <p className="text-muted max-w-md">
-                I use an agentic reasoning loop to search MongoDB Atlas Vector
+                I use an agentic reasoning loop to search MongoDB Vector
                 Search and deliver precise answers from the official brand
                 guidelines.
               </p>

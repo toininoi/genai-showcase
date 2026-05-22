@@ -11,7 +11,7 @@ In this project, we:
 
 ## Features
 - **Automated Infrastructure**: Terraform is used to provision MongoDB Atlas resources including clusters, vector search indices, and access controls.
-- **RAG Implementation**: A Spring Boot application that uses OpenAI to generate embeddings, with MongoDB Atlas vector search to perform semantic searches.
+- **RAG Implementation**: A Spring Boot application that uses OpenAI to generate embeddings, with MongoDB Vector Search to perform semantic searches.
 - **Document Loading**: Upload documents and store their embeddings for use in vector search.
 - **Querying with Vector Search**: Search documents by semantic similarity using a custom `/question` endpoint.
 

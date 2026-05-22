@@ -13,7 +13,7 @@ from pymongo.operations import SearchIndexModel
 
 
 def setup_indexes():
-    """Setup MongoDB Atlas search indexes"""
+    """Setup MongoDB Search indexes"""
 
     # Get embedding dimensions from environment variable
     EMBEDDING_DIM_SIZE = int(os.getenv("EMBEDDING_DIM_SIZE", "1024"))
