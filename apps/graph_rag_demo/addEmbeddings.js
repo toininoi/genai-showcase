@@ -17,7 +17,7 @@ async function run() {
         const collection = database.collection("knowledge_graph");
         const dbConfig = {
             collection: collection,
-            indexName: "vector_index", // The name of the Atlas search index to use.
+            indexName: "vector_index", // The name of the MongoDB search index to use.
             textKey: "chunks", // Field name for the raw text content. Defaults to "text".
             embeddingKey: "embedding", // Field name for the vector embeddings. Defaults to "embedding".
         };

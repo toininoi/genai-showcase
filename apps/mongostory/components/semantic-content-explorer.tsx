@@ -103,7 +103,7 @@ export function SemanticContentExplorer() {
     }
   }
 
-  // Update the handleSearch function to better reflect MongoDB Atlas vector search
+  // Update the handleSearch function to better reflect MongoDB Vector Search
   const handleSearch = async () => {
     if (!searchQuery.trim()) return
 
